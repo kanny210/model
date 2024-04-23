@@ -1,0 +1,66 @@
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+:root{
+  --font-heading: 'Telma', cursive;
+  --font-general: 'Clash Display', sans-serif;
+
+  --color-Grey-light-1: #faf9f9;
+  --color-Grey-light-2: #f4f2f2;
+  --color-Grey-light-3: #f0eeee;
+  --color-Grey-light-4: #ccc;
+
+  --color-Grey-dark-1: #333;
+  --color-Grey-dark-2: #777;
+  --color-Grey-dark-3: #999;
+
+  --color-secondary: #FFEFEF;
+
+  --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, .3);
+  --shadow-light: 0 2rem 3rem rgba(0, 0, 0, .06);
+}
+
+html{
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: var(--font-general);
+  line-height: 1.4;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+@media only screen and (max-width: 1200px){
+  html{
+    font-size: 50%;
+  }
+}
+
+@media (hover: none),
+only screen and (max-width: 930px) 
+{
+  body{
+    padding: 2rem;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  html{
+    font-size: 42.5%;
+  } 
+}

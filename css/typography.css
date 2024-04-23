@@ -1,0 +1,65 @@
+.heading-1{
+  font-family: var(--font-heading);
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 5rem;
+  width: 75%;
+}
+
+.heading-2{
+  text-transform: capitalize;
+  font-family: var(--font-heading);
+  font-size: 2.4rem;
+  color: red;
+  font-weight: bold;
+  letter-spacing: 2px;
+
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.heading-2::after{
+  content: "";
+  display: inline-block;
+  background-color: black;
+  height: 2px;
+  width: 10rem;
+}
+
+.heading-3{
+  font-size: 4.2rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: var(--color-Grey-dark-1);
+  width: 40rem;
+}
+
+.heading-4{
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.tertiary-heading{
+  font-family: 'Telma', cursive;
+  font-size: 1.8rem;
+  color: var(--color-secondary);
+  font-weight: 500;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-bottom: 1.5rem;
+}
+
+@media only screen and (max-width: 1200px){
+  .heading-1{
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (max-width:600px){
+  .heading-3{
+    font-size: 3.5rem;
+    font-weight: 600;
+  }
+}
