@@ -354,6 +354,7 @@
 .about-us__image1{
   height: 85%;
   width: 80%;
+  overflow: hidden;
   object-fit: cover;
   background-color: #FFEFEF;
   border-radius: 10px;
@@ -370,6 +371,7 @@
   bottom: 5rem;
   right: 8%;
   border-radius: 10px;
+  overflow: hidden;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
@@ -535,11 +537,16 @@
   padding: 2rem;
   gap: 3rem;
   background-color: var(--color-secondary);
+  border-radius: 10px;
   transition: all .3s;
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   -ms-transition: all .3s;
   -o-transition: all .3s;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .store-list__box:hover{
